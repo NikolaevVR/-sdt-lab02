@@ -1,12 +1,14 @@
 #include <iostream>
+
 using namespace std;
-//Программа является учебной
-int main() {
-    int a, b;
-    cout << "Enter A and B: ";
-    cin >> a >> b;
-    cout << "A + B = " << a + b << '\n';
-    cout <<"2*A= "<<2*a<<"\n";
-    cout<<"A-B= "<<A-B<<"\n";
-    return 0;
+
+int main()
+{
+ int a, b;
+ cout << "Enter A and B: ";
+ cin >> a >> b;
+ cout << "A + B = " << a + b << '\n'
+      << "A * 2 = " << a * 2 << '\n'
+ << "A - B = " << a - b << '\n'
+ << "A * B = " << a * b << '\n';
 }
